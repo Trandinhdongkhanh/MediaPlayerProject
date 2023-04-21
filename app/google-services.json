@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "34335725668",
+    "firebase_url": "https://fir-f4abe-default-rtdb.firebaseio.com",
+    "project_id": "fir-f4abe",
+    "storage_bucket": "fir-f4abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34335725668:android:9b213669009147ded7a771",
+        "android_client_info": {
+          "package_name": "com.tddk.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34335725668-jegslir9qr397l9ga5i9j8q7f4md84ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPOHY8RwuczITcZggGsmAEOVN6KfQY3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34335725668-jegslir9qr397l9ga5i9j8q7f4md84ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

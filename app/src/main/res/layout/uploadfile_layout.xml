@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playmedia_background"
+    android:padding="16dp"
+    tools:context=".UploadFileActivity">
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/white_pink"
+        android:textStyle="bold"
+        android:text="Choose file" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/button_choose_image"
+        android:hint="Enter file name"
+        android:textColor="@color/white_pink"
+        android:textColorHint="@color/white_pink"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edit_text_single_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_file_name"
+        android:hint="Enter Single Song"
+        android:textColor="@color/white_pink"
+        android:textColorHint="@color/white_pink"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edit_text_image_resouce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_single_song"
+        android:hint="Enter Image Link Ex: http://google.com"
+        android:textColor="@color/white_pink"
+        android:textColorHint="@color/white_pink"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/progress_bar"
+        android:layout_below="@id/edit_text_image_resouce"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white_pink"/>
+
+
+</RelativeLayout>
